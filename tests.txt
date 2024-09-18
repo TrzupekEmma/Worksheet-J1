@@ -1,0 +1,45 @@
+
+	"checkCode 1.A ",
+	"true",			
+	//WRITE YOUR TESTS BELOW IN THE SAME FORMAT (USE COPY-AND-PASTE)
+		
+	"checkCode 123.This Should Work 23456",
+	"true",
+	
+	"checkCode 0123.Preceding Zeroes 23456",
+	"false",
+	
+	"checkCode 123.One lowercase Word 23456",
+	"false",
+
+	"checkCode 123.No Numbers After Should Work ",
+	"true",
+	
+	"checkCode 123.Numb3rs 1n W0rds 12345",
+	"false",
+
+	"checkCode 123.Numbers In W0rds 12345",
+	"false",
+	
+	"checkCode No Numbers Or Full Stops",
+	"false",
+	
+	"checkCode 123No Full stops 12345",
+	"false",
+
+	"checkCode 123.No Space After Last Word12345",
+	"false",
+
+	"checkCode 12345.Too Many Numbers 12345",
+	"false",
+
+	"checkCode 123.Not Enough Numbers At End 123",
+	"false",
+	
+	"checkCode 123.Too Many Numbers At End 123456",
+	"false",
+
+	"checkCode 123.No Space At End12345",
+	"false",
+	
+	//DO NOT CHANGE ANYTHING BELOW THIS LINE		
